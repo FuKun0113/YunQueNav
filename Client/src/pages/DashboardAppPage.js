@@ -26,7 +26,7 @@ export default function DashboardAppPage() {
   return (
     <>
       <Helmet>
-        <title> Dashboard | Minimal UI </title>
+        <title> 云雀导航 ｜ 首页 </title>
       </Helmet>
 
       <Container maxWidth="xl">
