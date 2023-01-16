@@ -38,24 +38,30 @@
             - Icon
                - id
                - name
-               - class_name
                - url
                - website
                - discription
                - order
+               - class_id
             - Class
                - id
                - name
-               - icon_id
+               - link
+               - icon
                - discription
+               - order
+               - user_id
             - Picture
                - id
-               - class
                - name
                - url
+               - class
+               - discription
+               - user_id
             - Settings
                - id
                - background_picture
                - language
                - address
-               - owner
+               - theme
+               - user_id
