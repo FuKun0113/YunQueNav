@@ -1,8 +1,12 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("./database");
+const bcrypt = require("bcrypt");
 
-
-class User extends Model {}
+class User extends Model {
+  static instanceLevelMethod() {
+    return 'bar';
+  }
+}
 
 User.init(
   {
